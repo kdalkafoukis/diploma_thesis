@@ -6,7 +6,7 @@
 -This repository has been created to show samples of the architecture & code, of the platform.
 
 
--Programming Languages, Libraries, Api's and Frameworks were used:
+Programming Languages, Libraries, Api's and Frameworks were used:
 Python 3.4 
 Scala 2.10.4 
 Java 1.8.0_72-b15 
