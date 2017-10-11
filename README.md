@@ -1,11 +1,11 @@
 # Diploma Thesis
 
-### A platform for monitoring cloud infrastructures by the infrastructure administrator.Completed on June, 2016.
+#### A platform for monitoring cloud infrastructures by the infrastructure administrator.Completed on June, 2016.
 
-### This repository has been created to show samples of the architecture & code, of the platform.
+#### This repository has been created to show samples of the architecture & code, of the platform.
 
 
-#### Programming Languages, Libraries, Api's and Frameworks were used:
+##### Programming Languages, Libraries, Api's and Frameworks were used:
 
 * Python 3.4 
 
