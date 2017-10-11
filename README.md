@@ -1,4 +1,4 @@
-# diploma_thesis
+# Diploma Thesis
 
 ### A platform for monitoring cloud infrastructures by the infrastructure administrator.Completed on June, 2016.
 
