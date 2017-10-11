@@ -26,3 +26,5 @@ __This repository has been created to show samples of the architecture & code, o
 * Spark Cassandra Connector 1.5.0 DataStax Python Driver for Apache Cassandra 3.0.0 
 
 * Requests 2.9.1
+
+ ## Architecture
