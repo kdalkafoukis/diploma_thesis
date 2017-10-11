@@ -2,7 +2,9 @@
 
 -A platform for monitoring cloud infrastructures by the infrastructure administrator.
 
+
 -This repository has been created to show samples of the architecture & code, of the platform.
+
 
 -Programming Languages, Libraries, Api's and Frameworks were used:
 Python 3.4 
