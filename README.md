@@ -1,13 +1,13 @@
 # diploma_thesis
 
-#### A platform for monitoring cloud infrastructures by the infrastructure administrator.
+#### A platform for monitoring cloud infrastructures by the infrastructure administrator.Created on
 
 
 #### This repository has been created to show samples of the architecture & code, of the platform.
 
 
 **Programming Languages, Libraries, Api's and Frameworks were used:**
-**
+
 >Python 3.4 
 
 >Scala 2.10.4 
@@ -23,4 +23,3 @@
 >Spark Cassandra Connector 1.5.0 DataStax Python Driver for Apache Cassandra 3.0.0 
 
 >Requests 2.9.1
-**
