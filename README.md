@@ -28,6 +28,6 @@ __This repository has been created to show samples of the architecture & code, o
 * Requests 2.9.1
 
  ## Architecture
-![alt text]https://github.com/kdalkafoukis/diploma_thesis/blob/master/platform_arch.PNG
+![Image of Architecture](https://github.com/kdalkafoukis/diploma_thesis/blob/master/platform_arch.PNG)
 
 
