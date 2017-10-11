@@ -2,7 +2,6 @@
 
 #### A platform for monitoring cloud infrastructures by the infrastructure administrator.Created on
 
-
 #### This repository has been created to show samples of the architecture & code, of the platform.
 
 
