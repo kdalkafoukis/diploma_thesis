@@ -7,7 +7,7 @@ __Created to run in ICBnet Lab of NTUA.Completed on June, 2016.__
 __The platform that works in the Cloud Infrastructure, gathers Logs from Openstack & Zabbix elements and stores them
   to Apache Cassandra which is a NoSQL database and Apache Spark on top of Cassandra does batch analysis.__  
   
-__This repository has been created to show samples of the architecture & code, of the platform.__
+__This repository has been created to show code samples of the platform.__
 
  ## Programming Languages, Libraries, Api's and Frameworks were used:
 
