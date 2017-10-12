@@ -45,7 +45,7 @@ __This repository has been created to show samples of the architecture & code, o
      
   >    #### [**spark-script_2.scala**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/analysis_service/spark-script_1.scala) Simple script that analyzes data from Cassandra & stores results back to it
  
-  * ### [**Administration Interconnection Service**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/view_service)
+  * ### [**Administration Interconnection Service**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/data-view_service)
   This services is responsible to represent the requested queries about the Cloud infrastracture to the administrator of the infrastructure.
   
-   >    #### [**view-data_1.py**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/view_service/view-data_1.py) A script that shows grouped past results about CPU utilization
+   >    #### [**view-data_1.py**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/data-view_service/view-data_1.py) A script that shows grouped past results about CPU utilization
