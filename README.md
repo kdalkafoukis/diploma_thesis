@@ -47,3 +47,5 @@ __This repository has been created to show samples of the architecture & code, o
  
   * ### [**Administration Interconnection Service**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/)
   This services is responsible to represent the requested queries about the Cloud infrastracture to the administrator of the infrastructure.
+  
+   >    #### [**view-data_1.py**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/view_service/view-data_1.py) A script that shows grouped past results about CPU utilization
