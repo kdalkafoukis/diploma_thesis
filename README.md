@@ -1,6 +1,8 @@
 # Diploma Thesis
 
-__A platform for monitoring cloud infrastructures by the infrastructure administrator.Completed on June, 2016.__
+__A platform for monitoring cloud infrastructures by the infrastructure administrator.__
+
+__Created to run in ICBnet Lab of NTUA.Completed on June, 2016.__
 
 __The platform that works in the Cloud Infrastructure, gathers Logs from Openstack & Zabbix elements and stores them
   to Apache Cassandra which is a NoSQL database and Apache Spark on top of Cassandra does batch analysis.__  
