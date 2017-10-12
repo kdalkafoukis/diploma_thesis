@@ -31,14 +31,14 @@ __This repository has been created to show samples of the architecture & code, o
 ![Image of Architecture](https://github.com/kdalkafoukis/diploma_thesis/blob/master/platform_arch.PNG)
 
 - [**Monitoring Service**](http://github.com)
-This service is responisble for the collection and forwarding of Zabbix Data from VM's to Cassandra
+This service is responisble for the collection (through Zabbix Rest Api) and forwarding of Zabbix Data from VM's to Cassandra
 
 - [**Log Service**](http://github.com)
-This service parses Openstack log files to Cassandra
+This service parses Openstack log files to Cassandra.
 
 - [**Data Analysis Service**](http://github.com)
-This service uses Spark in top of Cassandra to analyze data
+This service uses Spark on top of Cassandra to analyze data.
 
 - [**Administration Interconnection Service**](http://github.com)
-This services is responsible to represent the requested queries about the Cloud infrastracture
+This services is responsible to represent the requested queries about the Cloud infrastracture to the administrator of the infrastructure
 
