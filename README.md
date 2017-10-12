@@ -28,10 +28,10 @@ __This repository has been created to show samples of the architecture & code, o
  ## Architecture
 ![Image of Architecture](https://github.com/kdalkafoukis/diploma_thesis/blob/master/img/platform_arch.PNG)
 
-- [**Monitoring Service**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/log_service)
+- [**Monitoring Service**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/monitoring_service)
 This service is responisble for the collection (through Zabbix Rest Api) and forwarding of Zabbix Data from VM's to Cassandra
 
-- [**Log Service**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/monitoring_service)
+- [**Log Service**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/log_service)
 This service parses Openstack log files to Cassandra.
 
 - [**Data Analysis Service**](http://github.com)
