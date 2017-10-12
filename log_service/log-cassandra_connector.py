@@ -25,9 +25,9 @@ while True:
     x=1 
  
   for i in range(x,y):    
-   l=linecache.getline(filename,i).rstrip()    
-   l2=l.split()    
-   session.execute(insert_statement,[uuid.uuid1(),l2[0],l2[1],l2[2],l2[3],l2[4],l2[6]," ".join(l2[7:])])   
+   line=linecache.getline(filename,i).rstrip()    
+   ell=line.split()    
+   session.execute(insert_statement,[uuid.uuid1(),ell[0],ell[1],ell[2],ell[3],ell[4],l2[6]," ".join(ell[7:])])   
    linecache.clearcache()   
    time.sleep(5)      
    
