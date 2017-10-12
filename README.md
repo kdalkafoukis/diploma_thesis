@@ -41,7 +41,7 @@ __This repository has been created to show samples of the architecture & code, o
   This service uses Spark on top of Cassandra to analyze data.  
   The scripts analyze data from Cassandra & stores results back to it.
      
-  >    #### [**spark-script_1.scala.py**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/analysis_service/spark-script_1.scala) Simple script that analyzes data from Cassandra & stores results back to it
+  >    #### [**spark-script_1.scala**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/analysis_service/spark-script_1.scala) Simple script that analyzes data from Cassandra & stores results back to it
      
   >    #### [**spark-script_2.scala**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/analysis_service/spark-script_1.scala) Sample of nova-api.log.1 file
  
