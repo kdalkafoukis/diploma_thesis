@@ -43,7 +43,7 @@ __This repository has been created to show samples of the architecture & code, o
      
   >    #### [**spark-script_1.scala**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/analysis_service/spark-script_1.scala) Simple script that analyzes data from Cassandra & stores results back to it
      
-  >    #### [**spark-script_2.scala**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/analysis_service/spark-script_1.scala) Sample of nova-api.log.1 file
+  >    #### [**spark-script_2.scala**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/analysis_service/spark-script_1.scala) Simple script that analyzes data from Cassandra & stores results back to it
  
   * ### [**Administration Interconnection Service**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/)
   This services is responsible to represent the requested queries about the Cloud infrastracture to the administrator of the infrastructure.
