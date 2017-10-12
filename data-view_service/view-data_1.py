@@ -5,7 +5,7 @@ from cassandra.cluster
 import Cluster import time,sys from datetime import datetime 
 '''
 This script uses python cassandra connector
-
+Grouped past results of CPU utilization per host
 '''
 cluster = Cluster(['10.0.2.9','10.0.2.10']) 
 session = cluster.connect() 
