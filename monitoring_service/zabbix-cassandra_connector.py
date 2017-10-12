@@ -1,6 +1,8 @@
 #!/usr/bin/python3.4 
  
-from datetime import datetime import time,json,requests,signal,sys,uuid from cassandra.cluster import Cluster 
+from datetime import datetime 
+import time,json,requests,signal,sys,uuid 
+from cassandra.cluster import Cluster 
  
 class MyClient(object):  
   def __init__(self):   
