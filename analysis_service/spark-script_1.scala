@@ -9,15 +9,16 @@ import org.apache.spark.SparkConf
  
 object SimpleApp {
   def main(args: Array[String]) { 
- 
-    val conf = new SparkConf(true).set("spark.cassandra.connection.host", "10.0.2.9,10.0.2.10")//configuration to connect Spark with Cassandra cluster
+    //configuration to connect Spark with Cassandra cluster
+    val conf = new SparkConf(true).set("spark.cassandra.connection.host", "10.0.2.9,10.0.2.10")
     val sc = new SparkContext("spark://10.0.2.7:7077", "analysis_1", conf)     
-    val rdd= sc.cassandraTable("spark", "z")                                                   //connection with table z in db space spark
+    val rdd= sc.cassandraTable("spark", "z")                         //connection with table z in db space spark
     val current_time=System.currentTimeMillis/1000.toInt     
     val n = 1     
     val myfilter = current_time-n*3600*24  
  
-    val rdd2= rdd.select("hostid","value","itemid","key")         //selects columns and filters timestamp (eg n=1 => one day) and keys
+    //selects columns and filters timestamp (eg n=1 => one day) and keys
+    val rdd2= rdd.select("hostid","value","itemid","key")        
       .where("timestamp>=? and timestamp<=?",myfilter,current_time)
       .filter(x=>x.getString("key")=="vm.memory.size[availa ble]" 
               || x.getString("key")== "system.cpu.util[,user]" 
