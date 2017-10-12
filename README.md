@@ -26,7 +26,7 @@ __This repository has been created to show samples of the architecture & code, o
 * Requests 2.9.1
 
  ## Architecture
-![Image of Architecture](https://github.com/kdalkafoukis/diploma_thesis/blob/master/platform_arch.PNG)
+![Image of Architecture](https://github.com/kdalkafoukis/diploma_thesis/blob/master/img/platform_arch.PNG)
 
 - [**Monitoring Service**](http://github.com)
 This service is responisble for the collection (through Zabbix Rest Api) and forwarding of Zabbix Data from VM's to Cassandra
