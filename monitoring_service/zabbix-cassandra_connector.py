@@ -1,5 +1,8 @@
 #!/usr/bin/python3.4 
  
+ '''
+ This script takes live data (about CPU,RAM,DISK,NETWORK) from Zabbix Server and stores them in Apache Cassandra
+ '''
 from datetime import datetime 
 import time,json,requests,signal,sys,uuid 
 from cassandra.cluster import Cluster 
