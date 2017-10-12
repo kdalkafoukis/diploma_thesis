@@ -2,12 +2,12 @@
 
 __A platform for monitoring cloud infrastructures by the infrastructure administrator.Completed on June, 2016.__
 
+__In a few words:  
+The platform that works in the Cloud Infrastructure, gathers Logs from Openstack & Zabbix elements and stores them
+  to Apache Cassandra which is a NoSQL database and Apache Spark on top of Cassandra does batch analysis__
+  
+  
 __This repository has been created to show samples of the architecture & code, of the platform.__
-
-
-
- 
-
 
  ## Programming Languages, Libraries, Api's and Frameworks were used:
 
@@ -30,4 +30,15 @@ __This repository has been created to show samples of the architecture & code, o
  ## Architecture
 ![Image of Architecture](https://github.com/kdalkafoukis/diploma_thesis/blob/master/platform_arch.PNG)
 
+- [**Monitoring Service**](http://github.com)
+This service is responisble for the collection and forwarding of Zabbix Data from VM's to Cassandra
+
+- [**Log Service**](http://github.com)
+This service parses Openstack log files to Cassandra
+
+- [**Data Analysis Service**](http://github.com)
+This service uses Spark in top of Cassandra to analyze data
+
+- [**Administration Interconnection Service**](http://github.com)
+This services is responsible to represent the requested queries about the Cloud infrastracture
 
