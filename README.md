@@ -28,27 +28,22 @@ __This repository has been created to show samples of the architecture & code, o
  ## Architecture
 ![Image of Architecture](https://github.com/kdalkafoukis/diploma_thesis/blob/master/img/platform_arch.PNG)
 
-### [**Monitoring Service**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/monitoring_service)
+*### [**Monitoring Service**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/monitoring_service)
 
 ```python    ```  This service is responisble for the collection (through Zabbix Rest Api) and forwarding of Zabbix Data from VM's to Cassandra
-```python
 
-```
-### [**Log Service**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/log_service)
+
+* ### [**Log Service**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/log_service)
 This service parses Openstack log files to Cassandra.
-```python
 
-```
-#### [**log-cassandra_connector.py**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/log_service/log-cassandra_connector.py) Custom script that reads  the below nova-api.log.1 and stores it to Cassandra Cluster.
-```python
 
-``` 
-#### [**nova-api.log.1**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/log_service/nova-api.log.1) Sample of nova-api.log.1
-### [**Data Analysis Service**](http://github.com)
+  *#### [**log-cassandra_connector.py**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/log_service/log-cassandra_connector.py) Custom script that reads  the below nova-api.log.1 and stores it to Cassandra Cluster.
+
+  *#### [**nova-api.log.1**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/log_service/nova-api.log.1) Sample of nova-api.log.1
+
+*### [**Data Analysis Service**](http://github.com)
 This service uses Spark on top of Cassandra to analyze data.
-```python
-
-``` 
-### [**Administration Interconnection Service**](http://github.com)
+ 
+*### [**Administration Interconnection Service**](http://github.com)
 This services is responsible to represent the requested queries about the Cloud infrastracture to the administrator of the infrastructure.
 
