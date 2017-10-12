@@ -39,11 +39,11 @@ __This repository has been created to show samples of the architecture & code, o
 
   * ### [**Data Analysis Service**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/analysis_service)
   This service uses Spark on top of Cassandra to analyze data.  
-  Script that analyzes data from Cassandra & stores results back to it
+  The scripts analyze data from Cassandra & stores results back to it.
      
-  >    #### [**log-cassandra_connector.py**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/analysis_service/spark-script_1.scala) Simple script that analyzes data from Cassandra & stores results back to it
+  >    #### [**spark-script_1.scala.py**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/analysis_service/spark-script_1.scala) Simple script that analyzes data from Cassandra & stores results back to it
      
-  >    #### [**nova-api.log.1**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/analysis_service/spark-script_1.scala) Sample of nova-api.log.1 file
+  >    #### [**spark-script_2.scala**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/analysis_service/spark-script_1.scala) Sample of nova-api.log.1 file
  
   * ### [**Administration Interconnection Service**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/)
   This services is responsible to represent the requested queries about the Cloud infrastracture to the administrator of the infrastructure.
