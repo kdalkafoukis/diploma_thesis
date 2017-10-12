@@ -35,7 +35,7 @@ __This repository has been created to show samples of the architecture & code, o
   This service parses Openstack log files to Cassandra.
 
    > #### [**log-cassandra_connector.py**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/log_service/log-cassandra_connector.py) Custom script that reads  the below nova-api.log.1 and stores it to Cassandra Cluster.
-   > #### [**nova-api.log.1**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/log_service/nova-api.log.1) Sample of nova-api.log.1
+   > #### [**nova-api.log.1**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/log_service/nova-api.log.1) Sample of nova-api.log.1 file
 
   * ### [**Data Analysis Service**](https://github.com/kdalkafoukis/diploma_thesis/tree/master/)
   This service uses Spark on top of Cassandra to analyze data.
